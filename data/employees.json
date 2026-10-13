@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "chaitanya dusane",
+    "email": "dusane7262@gmail.com",
+    "department": "IT",
+    "salary": 25000.0
+  },
+  {
+    "id": 2,
+    "name": "akhilesh joshi",
+    "email": "akhi@123.gaim",
+    "department": "HR",
+    "salary": 25000.0
+  },
+  {
+    "id": 3,
+    "name": "tejasgiri gosavi",
+    "email": "tejas@123.gmail.com",
+    "department": "Finance",
+    "salary": 25000.0
+  },
+  {
+    "id": 4,
+    "name": "ritu jadhav",
+    "email": "riru111@gmail.com",
+    "department": "Finance",
+    "salary": 30000.0
+  },
+  {
+    "id": 5,
+    "name": "rohan deshmukh",
+    "email": "rohan@gmail.com",
+    "department": "HR",
+    "salary": 42000
+  },
+  {
+    "id": 6,
+    "name": "suryakumar yadav",
+    "email": "surya1234@gmail.com",
+    "department": "IT",
+    "salary": 10000.0
+  }
+]
