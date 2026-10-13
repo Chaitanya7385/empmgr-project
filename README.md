@@ -112,5 +112,68 @@ git add .gitignore
 # commite
 git commit -m "Add Git ignore rules"
 
-# git push -u origin main
+# push
 
+git push -u origin main
+
+# create the branch 
+
+git switch -c feature/validation
+
+# check the branch 
+
+git branch
+
+# change and commit
+
+git add empmgr
+git commit -m "Add employee input validation"
+
+# merge 
+
+git switch main
+git merge feature/validation
+
+# push
+git push
+
+
+# to run the report.py 
+
+python
+
+from empmgr.report import department_summary
+
+print(department_summary())
+
+# check the history of the github
+
+git log --oneline --graph --all
+
+
+
+*   35ed4c6 (HEAD -> main, origin/main) Add department summary report
+|\  
+| * 27d9a75 (feature/report) Add employee input validation
+* | 24ce8e0 Add department summary report
+* | 67eba5b Add department summary report
+|/  
+:
+*   35ed4c6 (HEAD -> main, origin/main) Add department summary report
+|\  
+| * 27d9a75 (feature/report) Add employee input validation
+* | 24ce8e0 Add department summary report
+* | 67eba5b Add department summary report
+|/  
+* fc197ca (feature/validation) Add employee input validation
+* 3b06da0 Document project setup
+* e816cf1 Add project dependencies
+:
+
+
+
+
+--------------------------------------------------
+
+1) switch to new branch 
+git switch -c feature/readme-polish
