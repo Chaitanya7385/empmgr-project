@@ -6,10 +6,10 @@ from rich.table import Table
 
 
 from .storage import load_employees, save_employees
-from .validators import parse_salary
-
+from .validators import parse_salary, validate_email
 
 def add_employee(employees, name, email, department, salary):
+    
     next_id = max(
         (employee["id"] for employee in employees),
         default=0
@@ -60,6 +60,10 @@ def main():
 
             if not name or salary is None:
                 print("Invalid input - employee not added.")
+                continue
+
+            if not validate_email(email):
+                print("Invalid email - employee not added.")
                 continue
 
             add_employee(
