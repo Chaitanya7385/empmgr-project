@@ -176,4 +176,12 @@ git log --oneline --graph --all
 --------------------------------------------------
 
 1) switch to new branch 
+
 git switch -c feature/readme-polish
+
+
+2) push new branch 
+
+
+git push -u origin feature/readme-polish
+
